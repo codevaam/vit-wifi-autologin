@@ -1,4 +1,4 @@
-# Vit Wi-Fi AutoLogin
+# VIT Wi-Fi Auto Login
 
 ### Features:
 * Saves Credentials for future
