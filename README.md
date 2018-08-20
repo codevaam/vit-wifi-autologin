@@ -1,12 +1,14 @@
 # VIT Wi-Fi Auto Login
 
 ### Features:
-* Saves Credentials for future
+
 * Logs in automatically on chrome startup
 * [Material Design](http://materializecss.com)
+* Credentials are saved locally and not on the cloud 
 
 ### Installing:
 *As of November 21st, 2016, all newly published packaged or hosted apps are restricted to Chrome OS, and are not available to users on Windows, Mac or Linux. Read More [Here](http://blog.chromium.org/2016/08/from-chrome-apps-to-web.html)*
+
 Thus we need to manually install the extenstion on chrome. 
 
 ##### Step One
