@@ -1,0 +1,28 @@
+{
+  "browser_action": {
+    "default_icon": "icon256x256.png",
+    "default_popup": "popup.html",
+    "default_title": "Click to login"
+ },
+ "background": {
+  "scripts": [ "background-script.js" ]
+},
+ "icons": {
+  "128": "icon128x128.png",
+  "16": "icon16x16.png",
+  "32":"icon32x32.png",
+  "48": "icon48x48.png"
+},
+ "content_scripts": [ {
+  "js": [ "logincontent.js" ],
+  "matches": [ "http://phc.prontonetworks.com/*" ],
+  "run_at": "document_end"
+} ],
+  "name": "VIT Wifi Autologin",
+  "version": "1.0",
+  "author": "Darsh Patel",
+  "description": "Opensource Chrome Extenstion to auto login to the pronto network login prompt using your credentials.",
+  "manifest_version": 2,
+  "permissions": [ "webRequest", "tabs", "storage", "notifications", "http://phc.prontonetworks.com/*" ],
+  "update_url": "https://clients2.google.com/service/update2/crx"
+}

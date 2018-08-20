@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WiFi Auto Login</title>
+    <script src="popup-script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="materialize.min.css" media="screen"/>
+  </head>
+  <body>
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col s12">
+      <h5 class="header" style="color:rgb(104, 101, 101);">VIT Wi-Fi Auto Login</h5>
+      </div>
+      </div>
+      <form action="" method="post" id="form1">
+        <div class="row">
+          <div class="col s12">
+            <label for="username">User Name: </label>
+            <input type="text" placeholder="Username" class="input-field" name="username" id="username">
+          </div>
+        </div>
+          <div class="row">
+            <div class="col s12">
+              <label for="password">Password: </label>
+              <input type="password" placeholder="Password" class="input-field" name="password" id="password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s4">
+              <button type="button" class="waves-effect waves-light btn-small light-blue" id="submit_form">Save</button>
+            </div>
+            <div class="col s4">
+            <button type="button" class="waves-effect waves-light btn-small light-blue " id="login">Login</button>
+          </div>
+          <div class="col s4">
+            <button type="button" class="waves-effect waves-light btn-small light-blue" id="logout">Logout</button>
+          </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row">
+          <div class="col s12">
+        <h6 id="status" class="header" style="color:rgb(104, 101, 101);"></h5>
+      </div>
+    </div>
+
+    </div>
+  </body>
+<style>
+  .container {
+    min-width: 300px;
+    margin: 10px;
+}
+</style>
+</html>
