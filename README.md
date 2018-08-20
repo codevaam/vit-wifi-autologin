@@ -1,6 +1,6 @@
 # Vit Wi-Fi AutoLogin
 
-### Features
+### Features:
 * Saves Credentials for future
 * Logs in automatically on chrome startup
 * [Material Design](http://materializecss.com)
