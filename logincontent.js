@@ -1,3 +1,4 @@
+
 try {
   var credential_form = document.getElementsByTagName('form')[0];
   chrome.storage.sync.get(null, function(obj){
@@ -13,9 +14,9 @@ try {
   
   var mesg1 = new RegExp('Sorry, please check', i)
   var mesg2 = new RegExp('try again',i)
-  var error2 = document.getElementsByName('dynamicMacAuth')[0];     //when username or password is null
+  var err2 = document.getElementsByName('dynamicMacAuth')[0];
   var responseText = document.getElementsByTagName('html')[0].innerHTML;
-  var incorrect_cred = mesg1.test(responseText) || mesg2.test(responseText) || error2;
+  var incorrect_cred = mesg1.test(responseText) || mesg2.test(responseText) || err2;
   console.log(document.getElementsByTagName('html')[0].innerHTML);
   console.log(incorrect_cred);
   if(incorrect_cred){
