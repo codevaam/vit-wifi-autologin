@@ -30,7 +30,8 @@ Then, Click **Load unpacked extension** and select the directory in which you ex
 
 ##### Installed
 Click on the extenstion icon , enter credentials and click save.
-![screenshot](https://user-images.githubusercontent.com/11258286/44358509-d812d380-a4d2-11e8-9dd0-33ccf388df7d.png)
+![screenshot](https://user-images.githubusercontent.com/11258286/44358668-53748500-a4d3-11e8-976d-b19ef0208758.png)
+
 
 
 ### To-Do:
