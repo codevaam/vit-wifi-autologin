@@ -28,6 +28,9 @@ visit `chrome://extensions` in your browser and ensure that the Developer mode c
 
 Then, Click **Load unpacked extension** and select the directory in which you extracted the files.
 
+##### Installed
+Click on the extenstion icon , enter credentials and click save.
+![screenshot](https://user-images.githubusercontent.com/11258286/44358509-d812d380-a4d2-11e8-9dd0-33ccf388df7d.png)
 
 
 ### To-Do:
