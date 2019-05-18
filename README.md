@@ -11,7 +11,7 @@
 
 Thus we need to manually install the extenstion on chrome. 
 
-##### Step One
+#### Step One
 **Download and Extract** the archive of this repository using from here:
 
 [https://github.com/darshkpatel/vit-wifi-autologin/archive/master.zip](https://github.com/darshkpatel/vit-wifi-autologin/archive/master.zip)
@@ -23,7 +23,7 @@ You can use this command if you have git installed
 `git clone https://github.com/darshkpatel/vit-wifi-autologin.git` 
 
 
-##### Step Two
+#### Step Two
 visit `chrome://extensions` in your browser and ensure that the Developer mode checkbox in the top right-hand corner is checked.
 
 ![Screenshot](https://user-images.githubusercontent.com/11258286/44358002-4ce50e00-a4d1-11e8-8710-a8377ea71634.png)
